@@ -12,7 +12,7 @@ native_deps:
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block" rel="stylesheet"> -->
     <script src="_/theme/anvil-m3/floating-ui/core@1.6.7.js"></script>
     <script src="_/theme/anvil-m3/floating-ui/dom@1.6.10.js"></script>
-package_name: m3
+package_name: _M3
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
@@ -194,10 +194,10 @@ toolbox_sections:
   title: Feedback
 - description: Integrations allow you to connect to other platforms and services
   items:
-  - component: {type: anvil.Plot}
+  - codePrelude: import plotly.graph_objects as go
+    component: {type: anvil.Plot}
     icon: {dark: /ide/img/toolbox/Plot.dark.svg, light: /ide/img/toolbox/Plot.svg}
     title: Plot
-    codePrelude: "import plotly.graph_objects as go"
     url: /docs/client/components/plot
   - component: {type: anvil.YouTubeVideo}
     icon: {dark: /ide/img/toolbox/YouTubeVideo.dark.svg, light: /ide/img/toolbox/YouTubeVideo.svg}
