@@ -2,7 +2,7 @@ allow_embedding: false
 client_init_module: InitModule
 code_prelude: {form: import m3.components as m3}
 db_schema: {}
-name: Material 3 Theme
+name: cherrypod
 native_deps:
   head_html: |
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,10 +12,10 @@ native_deps:
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block" rel="stylesheet"> -->
     <script src="_/theme/anvil-m3/floating-ui/core@1.6.7.js"></script>
     <script src="_/theme/anvil-m3/floating-ui/dom@1.6.10.js"></script>
-package_name: _M3
+package_name: _CHERRYPOD
 runtime_options:
   client_version: '3'
-  server_spec: {base: python310-minimal}
+  server_spec: {base: python310-machine-learning}
   server_version: python3-full
   version: 3
 services:
