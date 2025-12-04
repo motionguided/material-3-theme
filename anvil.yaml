@@ -1,7 +1,15 @@
 allow_embedding: false
 client_init_module: InitModule
 code_prelude: {form: import m3.components as m3}
-db_schema: {}
+db_schema:
+  table_1:
+    client: none
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      name: Column1
+      type: string
+    server: full
+    title: Table 1
 name: cherrypod
 native_deps:
   head_html: |

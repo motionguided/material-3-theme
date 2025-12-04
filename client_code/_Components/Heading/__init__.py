@@ -15,6 +15,9 @@ from ..._utils.properties import (
     tooltip_property,
 )
 from ._anvil_designer import HeadingTemplate
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 
 class Heading(HeadingTemplate):

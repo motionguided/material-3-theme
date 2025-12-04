@@ -16,6 +16,9 @@ from ..._utils.properties import (
     underline_property,
 )
 from ._anvil_designer import LinkTemplate
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 
 class Link(LinkTemplate):

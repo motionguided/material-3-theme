@@ -14,6 +14,9 @@ from ..._utils.properties import (
 )
 from ..MenuItem import MenuItem
 from ._anvil_designer import DropdownMenuTemplate
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 
 class DropdownMenu(DropdownMenuTemplate):

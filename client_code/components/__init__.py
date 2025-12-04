@@ -1,3 +1,6 @@
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 from .._Components.Avatar import Avatar
 from .._Components.AvatarMenu import AvatarMenu
 from .._Components.Button import Button

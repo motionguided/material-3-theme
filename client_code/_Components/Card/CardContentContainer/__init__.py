@@ -1,6 +1,9 @@
 import anvil.designer
 import anvil.server
 from anvil import *
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 from ...._utils.properties import margin_property
 from ._anvil_designer import CardContentContainerTemplate

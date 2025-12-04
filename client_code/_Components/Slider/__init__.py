@@ -1,5 +1,8 @@
 import anvil.js
 from anvil import *
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 from anvil import HtmlTemplate
 from anvil.designer import in_designer
 from anvil.js.window import ResizeObserver, document

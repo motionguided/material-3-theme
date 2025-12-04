@@ -1,5 +1,8 @@
 import anvil.server
 from anvil import *
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 from ..._utils import gen_id
 from ..._utils.properties import (
